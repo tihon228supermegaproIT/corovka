@@ -1,0 +1,334 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.header-container {
+    position: absolute;
+    width: 1600px;
+    height: 2066px;
+    left: 0px;
+    top: 0px;
+    background: #fdfcef;
+    border-radius: 50px;
+}
+
+.header-img {
+    position: absolute;
+    left: 245px;
+    top: 60px;
+    width: 35px;
+    height: 22.81px;
+    
+}
+
+.header-title {
+    position: absolute;
+    width: 137px;
+    height: 30px;
+    top: 60px;
+    left: 290px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #000000;
+    
+}
+
+.header-subtitle {
+    position: absolute;
+    width: 465px;
+    height: 210px;
+    left: 245px;
+    top: 210px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+    /* or 70px */
+    
+    
+    color: #000000;    
+}
+
+.header-bubtitle{
+    position: absolute;
+    width: 423px;
+    height: 50px;
+    left: 245px;
+    top: 450px;
+    
+    /* Обычный текст */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136.7%;
+    /* or 25px */
+    
+    
+    color: #000000;
+    
+}
+
+.header-button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 227px;
+    height: 69px;
+    left: 245px;
+    top: 530px;
+    border: solid #ff6861;
+    border-radius: 100px; 
+    color: #ffffff;   
+    background: #ff6861;
+}
+
+.header-corova {
+    position: absolute;
+    width: 456px;
+    height: 456px;
+    left: 890px;
+    top: 172px;   
+}
+
+.game-title {
+    position: absolute;
+    width: 512px;
+    height: 56px;
+    left: 544px;
+    top: 757px;
+    
+    /* Заголовок h2 */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+    
+    
+    color: #000000;
+    
+}
+
+.run-img {
+    position: absolute;
+    left: 440px;
+    top: 885.5px;
+    width: 73px;
+    height: 73px;    
+}
+
+.run-title {
+    position: absolute;
+    width: 349px;
+    height: 42px;
+    left: 547px;
+    top: 883px;
+    
+    /* Заголовок h3 */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    /* identical to box height, or 42px */
+    
+    
+    color: #000000;
+    
+}
+
+.run-subtitle {
+    position: absolute;
+    width: 613px;
+    height: 25px;
+    left: 547px;
+    top: 936px;
+    
+    /* Обычный текст */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136.7%;
+    /* identical to box height, or 25px */
+    
+    
+    color: #000000;
+    
+}
+
+.protect-img {
+    position: absolute;
+    left: 440px;
+    top: 1004.5px;
+    width: 73px;
+    height: 73px;    
+}
+
+.protect-title {
+    position: absolute;
+    width: 433px;
+    height: 42px;
+    left: 547px;
+    top: 1002px;
+    /* Заголовок h3 */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    /* identical to box height, or 42px */
+    
+    
+    color: #000000;    
+}
+
+.protect-subtitle {
+    position: absolute;
+    width: 613px;
+    height: 25px;
+    left: 547px;
+    top: 1055px;
+    
+    /* Обычный текст */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136.7%;
+    /* identical to box height, or 25px */
+    
+    
+    color: #000000;
+       
+}
+
+.score-img  {
+    position: absolute;
+    left: 440px;
+    top: 1123.5px;
+    width: 73px;
+    height: 73px;       
+}
+
+.score-title {
+    position: absolute;
+    width: 513px;
+    height: 42px;
+    left: 547px;
+    top: 1121px;
+    /* Заголовок h3 */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    /* identical to box height, or 42px */
+    
+    
+    color: #000000;       
+}
+
+.score-subtitle {
+    position: absolute;
+    width: 613px;
+    height: 25px;
+    left: 547px;
+    top: 1174px;
+    
+    /* Обычный текст */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 136.7%;
+    /* identical to box height, or 25px */
+    
+    
+    color: #000000;    
+}
+
+.corovra-img {
+    position: absolute;
+    left: 245px;
+    top: 1319px;
+    width: 1110px;
+    height: 486px;    
+}
+
+.footer-text {
+    position: absolute;
+    width: 198px;
+    height: 21px;
+    left: 701px;
+    top: 1925px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 136.7%;
+    /* identical to box height, or 21px */
+    
+    text-align: center;
+    
+    color: #000000;    
+}
+
+span {
+    position: absolute;
+    width: 87px;
+    height: 25px;
+    left: 70px;
+    top: 20px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 136.7%;
+    /* identical to box height, or 25px */
+    
+    
+    color: #FFFFFF;    
+}
