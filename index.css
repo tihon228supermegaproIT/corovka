@@ -37,7 +37,7 @@ body{
 }
 
 .header-img {
-    position: absolute;
+    
     left: 245px;
     top: 60px;
     width: 35px;
@@ -46,7 +46,7 @@ body{
 }
 
 .header-title {
-    position: absolute;
+    
     width: 137px;
     height: 30px;
     top: 60px;
@@ -63,7 +63,7 @@ body{
 }
 
 .header-subtitle {
-    position: absolute;
+    
     width: 465px;
     height: 210px;
     left: 245px;
@@ -81,7 +81,7 @@ body{
 }
 
 .header-bubtitle{
-    position: absolute;
+    
     width: 423px;
     height: 50px;
     left: 245px;
@@ -103,7 +103,7 @@ body{
 
 .header-button {
     box-sizing: border-box;
-    position: absolute;
+    
     width: 227px;
     height: 69px;
     left: 245px;
@@ -123,7 +123,7 @@ body{
 }
 
 .game-title {
-    position: absolute;
+    
     width: 512px;
     height: 56px;
     left: 544px;
@@ -152,7 +152,7 @@ body{
 }
 
 .run-title {
-    position: absolute;
+    
     width: 349px;
     height: 42px;
     left: 547px;
@@ -173,7 +173,7 @@ body{
 }
 
 .run-subtitle {
-    position: absolute;
+    
     width: 613px;
     height: 25px;
     left: 547px;
@@ -202,7 +202,7 @@ body{
 }
 
 .protect-title {
-    position: absolute;
+    
     width: 433px;
     height: 42px;
     left: 547px;
@@ -221,7 +221,7 @@ body{
 }
 
 .protect-subtitle {
-    position: absolute;
+    
     width: 613px;
     height: 25px;
     left: 547px;
@@ -250,7 +250,7 @@ body{
 }
 
 .score-title {
-    position: absolute;
+    
     width: 513px;
     height: 42px;
     left: 547px;
@@ -269,7 +269,7 @@ body{
 }
 
 .score-subtitle {
-    position: absolute;
+    
     width: 613px;
     height: 25px;
     left: 547px;
@@ -297,7 +297,7 @@ body{
 }
 
 .footer-text {
-    position: absolute;
+   
     width: 198px;
     height: 21px;
     left: 701px;
@@ -316,7 +316,6 @@ body{
 }
 
 span {
-    position: absolute;
     width: 87px;
     height: 25px;
     left: 70px;
